@@ -1,3 +1,4 @@
+// классы шрифтов
 export const fontFamilyClasses = [
 	'open-sans',
 	'ubuntu',
@@ -15,6 +16,7 @@ export type OptionType = {
 	optionClassName?: string;
 };
 
+// шрифт
 export const fontFamilyOptions: OptionType[] & {
 	optionClassName?: FontFamiliesClasses;
 } = [
@@ -33,6 +35,7 @@ export const fontFamilyOptions: OptionType[] & {
 	},
 ];
 
+// цвет шрифта
 export const fontColors: OptionType[] = [
 	{
 		title: 'Черный',
@@ -90,6 +93,7 @@ export const fontColors: OptionType[] = [
 	},
 ];
 
+// цвет фона
 export const backgroundColors: OptionType[] = [
 	{
 		title: 'Белый',
@@ -147,6 +151,7 @@ export const backgroundColors: OptionType[] = [
 	},
 ];
 
+// ширина контента
 export const contentWidthArr: OptionType[] = [
 	{
 		title: 'Широкий',
@@ -162,12 +167,14 @@ export const contentWidthArr: OptionType[] = [
 	},
 ];
 
+// размер шрифта
 export const fontSizeOptions: OptionType[] = [
 	{ title: '18px', value: '18px', className: 'font-size-18' },
 	{ title: '25px', value: '25px', className: 'font-size-25' },
 	{ title: '38px', value: '38px', className: 'font-size-38' },
 ];
 
+// дефолтные значения
 export const defaultArticleState = {
 	fontFamilyOption: fontFamilyOptions[0],
 	fontColor: fontColors[0],
